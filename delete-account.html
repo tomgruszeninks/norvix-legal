@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NORVIX — Account löschen / Delete Account</title>
+  <meta name="description" content="How to delete your NORVIX account and all associated data." />
+  <style>
+    :root {
+      --bg: #0A0A0F;
+      --fg: #E8E8EC;
+      --muted: #9B9BA8;
+      --accent: #8B5CF6;
+      --border: #1F1F28;
+      --card: #13131B;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 16px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    header { border-bottom: 1px solid var(--border); padding-bottom: 24px; margin-bottom: 32px; }
+    .brand { color: var(--accent); font-weight: 800; letter-spacing: 0.1em; font-size: 14px; text-transform: uppercase; }
+    h1 { font-size: 30px; margin: 12px 0 8px; letter-spacing: -0.02em; }
+    h2 { font-size: 20px; margin-top: 36px; margin-bottom: 10px; }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 6px; color: var(--accent); }
+    .meta { color: var(--muted); font-size: 14px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px 24px; margin: 20px 0; }
+    .card strong { color: var(--fg); }
+    a { color: var(--accent); }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    ol { padding-left: 22px; }
+    ol li { margin-bottom: 8px; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 48px 0 32px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    .step {
+      counter-increment: step;
+      display: flex;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .step:last-child { border-bottom: none; }
+    .step-num {
+      flex: 0 0 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+    }
+    .step-body { flex: 1; }
+    footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+    @media (max-width: 520px) { .wrap { padding: 32px 18px 60px; } h1 { font-size: 24px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">NORVIX</div>
+      <h1>Account &amp; Daten löschen · Delete Account &amp; Data</h1>
+      <div class="meta">
+        Stand / Effective date: 15. April 2026 ·
+        <a href="./privacy.html">← Privacy Policy</a>
+      </div>
+    </header>
+
+    <!-- ========== DEUTSCH ========== -->
+    <section id="de">
+      <h2>Option 1 — In der App löschen (empfohlen)</h2>
+      <p>Der schnellste Weg: direkt in der NORVIX-App. Dein Account und alle Daten werden sofort gelöscht.</p>
+      <div class="card">
+        <div class="step">
+          <span class="step-num">1</span>
+          <div class="step-body">
+            <strong>NORVIX öffnen</strong>
+            <div class="muted">Stelle sicher, dass du eingeloggt bist.</div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <div class="step-body">
+            <strong>Einstellungen → Account → Account löschen</strong>
+            <div class="muted">Der rote Button ganz unten in den Einstellungen.</div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <div class="step-body">
+            <strong>Mit "DELETE" bestätigen</strong>
+            <div class="muted">Du musst das Wort DELETE eintippen, um versehentliche Löschungen zu verhindern.</div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">4</span>
+          <div class="step-body">
+            <strong>Fertig — sämtliche Daten sind gelöscht.</strong>
+            <div class="muted">Account, Ziele, Tasks, Projekte, AI-Coach-Verläufe — alles weg.</div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Option 2 — Anfrage per E-Mail (wenn App deinstalliert)</h2>
+      <p>
+        Wenn du die App bereits deinstalliert hast oder nicht mehr darauf zugreifen kannst, schick uns eine
+        Löschanfrage per E-Mail:
+      </p>
+      <div class="card">
+        <h3>E-Mail-Vorlage</h3>
+        <p>
+          <strong>An:</strong> <a href="mailto:gruszeninkst@gmail.com?subject=NORVIX%20Account-L%C3%B6schung&amp;body=Hallo%2C%0A%0Abitte%20l%C3%B6scht%20meinen%20NORVIX-Account%20vollst%C3%A4ndig.%0A%0AE-Mail-Adresse%20meines%20Accounts%3A%20%5Bdeine%20E-Mail%5D%0A%0ADanke">gruszeninkst@gmail.com</a><br>
+          <strong>Betreff:</strong> NORVIX Account-Löschung<br>
+          <strong>Inhalt:</strong> E-Mail-Adresse deines Accounts
+        </p>
+        <p class="muted">
+          → <a href="mailto:gruszeninkst@gmail.com?subject=NORVIX%20Account-L%C3%B6schung&amp;body=Hallo%2C%0A%0Abitte%20l%C3%B6scht%20meinen%20NORVIX-Account%20vollst%C3%A4ndig.%0A%0AE-Mail-Adresse%20meines%20Accounts%3A%20%5Bdeine%20E-Mail%5D%0A%0ADanke">E-Mail-Vorlage automatisch öffnen</a>
+        </p>
+      </div>
+
+      <h2>Was wird gelöscht?</h2>
+      <ul>
+        <li>Dein Account (E-Mail, Name, Passwort-Hash)</li>
+        <li>Alle Ziele, Aufgaben, Projekte, Kategorien</li>
+        <li>Zeiterfassungs-Daten und Sessions</li>
+        <li>AI-Coach-Verlauf</li>
+        <li>App-Einstellungen und Präferenzen</li>
+        <li>Push-Notification-Tokens</li>
+      </ul>
+
+      <h2>Wie lange dauert es?</h2>
+      <ul>
+        <li><strong>Option 1 (in der App):</strong> sofort.</li>
+        <li><strong>Option 2 (per E-Mail):</strong> Bearbeitung innerhalb von 72 Stunden, vollständige Löschung spätestens nach 30 Tagen (DSGVO-Frist).</li>
+      </ul>
+
+      <h2>Was nicht gelöscht werden kann</h2>
+      <ul>
+        <li><strong>Zahlungsdaten:</strong> liegen bei Apple/Google, nicht bei NORVIX. Abo kündigen musst du in deinem App Store / Play Store Account.</li>
+        <li><strong>Technische Logs:</strong> anonymisierte Backend-Logs (keine Account-Zuordnung) werden max. 30 Tage aufbewahrt.</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <!-- ========== ENGLISH ========== -->
+    <section id="en">
+      <h2>Option 1 — Delete inside the app (recommended)</h2>
+      <p>The fastest way: directly in the NORVIX app. Your account and all data are deleted immediately.</p>
+      <div class="card">
+        <div class="step">
+          <span class="step-num">1</span>
+          <div class="step-body">
+            <strong>Open NORVIX</strong>
+            <div class="muted">Make sure you're logged in.</div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <div class="step-body">
+            <strong>Settings → Account → Delete Account</strong>
+            <div class="muted">The red button at the bottom of Settings.</div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <div class="step-body">
+            <strong>Confirm by typing "DELETE"</strong>
+            <div class="muted">You must type the word DELETE to prevent accidental deletion.</div>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">4</span>
+          <div class="step-body">
+            <strong>Done — all your data is erased.</strong>
+            <div class="muted">Account, goals, tasks, projects, AI coach history — everything.</div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Option 2 — Request by email (if app uninstalled)</h2>
+      <p>
+        If you've already uninstalled the app or can't access it, send us a deletion request by email:
+      </p>
+      <div class="card">
+        <h3>Email template</h3>
+        <p>
+          <strong>To:</strong> <a href="mailto:gruszeninkst@gmail.com?subject=NORVIX%20account%20deletion&amp;body=Hi%2C%0A%0APlease%20delete%20my%20NORVIX%20account%20completely.%0A%0AMy%20account%20email%20address%3A%20%5Byour%20email%5D%0A%0AThanks">gruszeninkst@gmail.com</a><br>
+          <strong>Subject:</strong> NORVIX account deletion<br>
+          <strong>Body:</strong> Your account email address
+        </p>
+        <p class="muted">
+          → <a href="mailto:gruszeninkst@gmail.com?subject=NORVIX%20account%20deletion&amp;body=Hi%2C%0A%0APlease%20delete%20my%20NORVIX%20account%20completely.%0A%0AMy%20account%20email%20address%3A%20%5Byour%20email%5D%0A%0AThanks">Open pre-filled email</a>
+        </p>
+      </div>
+
+      <h2>What gets deleted</h2>
+      <ul>
+        <li>Your account (email, name, password hash)</li>
+        <li>All goals, tasks, projects, categories</li>
+        <li>Time-tracking data and sessions</li>
+        <li>AI coach history</li>
+        <li>App preferences and settings</li>
+        <li>Push notification tokens</li>
+      </ul>
+
+      <h2>How long does it take?</h2>
+      <ul>
+        <li><strong>Option 1 (in the app):</strong> immediate.</li>
+        <li><strong>Option 2 (by email):</strong> processed within 72 hours, full deletion within 30 days (GDPR deadline).</li>
+      </ul>
+
+      <h2>What cannot be deleted</h2>
+      <ul>
+        <li><strong>Payment data:</strong> held by Apple / Google, not by NORVIX. Subscription cancellation must be done in your App Store / Play Store account.</li>
+        <li><strong>Technical logs:</strong> anonymized backend logs (no account reference) retained max. 30 days.</li>
+      </ul>
+    </section>
+
+    <footer>
+      NORVIX · Account Deletion Info · <a href="./privacy.html">Privacy Policy</a> · v1.0 — 15 April 2026
+    </footer>
+  </div>
+</body>
+</html>
